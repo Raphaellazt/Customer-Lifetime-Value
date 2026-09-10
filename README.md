@@ -5,12 +5,11 @@ Open the notebook directly in Google Colab — no installation required:
 [Open in Colab](https://colab.research.google.com/github/Raphaellazt/Customer-Lifetime-Value/blob/main/Customer_Lifetime_Value_.ipynb)
 
 Or run it locally:
-```bash
+
 git clone https://github.com/Raphaellazt/Customer-Lifetime-Value.git
 cd Customer-Lifetime-Value
 pip install pandas numpy scikit-learn matplotlib seaborn scipy plotly fastapi httpx uvicorn joblib
 jupyter notebook Customer_Lifetime_Value_.ipynb
-```
 
 ## 📁 Project Structure
 ```
