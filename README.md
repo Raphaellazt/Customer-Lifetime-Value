@@ -68,47 +68,6 @@ The result is a less impressive-looking model (R² = 0.069, not 78%) -- and a po
 
 *Note: 38.6% segmentation accuracy is across 4 value tiers, where random guessing would score ~25% -- so the model is doing meaningfully better than chance, just not dramatically so.*
 
-## 🚀 Quick Start
-```bash
-# Clone the repository
-https://github.com/Raphaellazt/Customer-Lifetime-Value
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the prediction pipeline
-python src/predict_clv.py --input data/new_customers.csv --output results/predictions.csv
-```
-
-## 📁 Project Structure
-```
-clv-predictor/
-├── data/
-│   ├── raw/                    # Original transaction data
-│   ├── processed/              # Cleaned, feature-engineered data
-│   └── sample/                 # Sample data for testing
-├── src/
-│   ├── data_preprocessing.py   # Data cleaning and feature engineering
-│   ├── model_training.py       # Model training and evaluation
-│   ├── predict_clv.py         # Prediction pipeline
-│   └── visualization.py       # Business dashboards and charts
-├── models/
-│   ├── clv_predictor.pkl      # Trained model
-│   ├── feature_scaler.pkl     # Feature preprocessing pipeline
-│   └── model_metadata.json    # Model performance metrics
-├── notebooks/
-│   ├── 01_data_exploration.ipynb     # Initial data analysis
-│   ├── 02_feature_engineering.ipynb # Feature creation process
-│   ├── 03_model_development.ipynb   # Model training and evaluation
-│   └── 04_business_analysis.ipynb   # Business insights and visualization
-├── reports/
-│   ├── figures/               # Generated charts and visualizations
-│   ├── business_report.pdf    # Executive summary and recommendations
-│   └── technical_report.md    # Detailed methodology and results
-├── requirements.txt           # Python dependencies
-└── README.md                 # This file
-```
-
 ## 🔍 Methodology
 
 ### Data Processing
