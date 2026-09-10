@@ -1,3 +1,26 @@
+## 🚀 Quick Start
+
+Open the notebook directly in Google Colab — no installation required:
+
+[Open in Colab](https://colab.research.google.com/github/Raphaellazt/Customer-Lifetime-Value/blob/main/Customer_Lifetime_Value_.ipynb)
+
+Or run it locally:
+```bash
+git clone https://github.com/Raphaellazt/Customer-Lifetime-Value.git
+cd Customer-Lifetime-Value
+pip install pandas numpy scikit-learn matplotlib seaborn scipy plotly fastapi httpx uvicorn joblib
+jupyter notebook Customer_Lifetime_Value_.ipynb
+```
+
+## 📁 Project Structure
+```
+Customer-Lifetime-Value/
+├── Customer_Lifetime_Value_.ipynb   # Full analysis: data cleaning, feature engineering,
+│                                     # model training and evaluation, business scoring,
+│                                     # and a tested FastAPI deployment endpoint
+└── README.md                        # This file
+```
+
 #[README.md](https://github.com/user-attachments/files/32029688/README.md)
 # Customer Lifetime Value Predictor
 
