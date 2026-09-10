@@ -71,8 +71,7 @@ The result is a less impressive-looking model (R² = 0.069, not 78%) -- and a po
 ## 🚀 Quick Start
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/clv-predictor.git
-cd clv-predictor
+https://github.com/Raphaellazt/Customer-Lifetime-Value
 
 # Install dependencies
 pip install -r requirements.txt
